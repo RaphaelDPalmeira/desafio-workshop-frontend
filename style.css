@@ -1,0 +1,180 @@
+body {
+    background-image: url("img/bandeira.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgba(13, 7, 176, 0.5), rgba(98, 93, 255, 0.5));
+    border-radius: 10px;
+}
+
+main {
+    background-image: linear-gradient(45deg, rgba(255, 255, 40, 0.5), rgba(255, 255, 99, 0.5));
+    border-radius: 10px;
+}
+
+.logo {
+    margin: 5px 0;
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.item-menu, .button {
+    background-color: rgb(255, 255, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mudar {
+    border: none;
+    background-color: rgb(255, 255, 0);
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.item {
+    text-decoration: none;
+}
+
+.trocar1{
+    background-image: linear-gradient(45deg, rgba(255, 255, 40, 0.5), rgba(255, 255, 99, 0.5));
+}
+
+.trocar2 {
+    background-image: linear-gradient(45deg, rgba(13, 7, 176, 0.5), rgba(98, 93, 255, 0.5));
+}
+
+.trocar-fundo{
+    background-image: url("img/teste.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trocar-botao {
+    background-color: rgba(32, 32, 197, 0.8);
+    color: white;
+}
+
+.trocar-texto {
+    color: white;
+}
+
+.send-inside:hover {
+    font-size: 22px;
+    color: rgb(4, 184, 4);
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    margin: 10px auto;
+    gap: 80px;
+}
+
+.form, .bloco {
+    width: 400px;
+    height: 400px;
+}
+
+.form {
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 450px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.input, .send{
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.input-inside {
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.send-inside {
+    padding: 10px;
+    width: 85%;
+    margin: 0 auto;
+    height: 6em;
+    font-size: 16px;
+    border-radius: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.imagem2 {
+    margin-top: 20px;
+}
+
+.torcedor {
+    width: 400px;
+    height: 270px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.icones {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ic {
+    width: 30px;
+    height: 30px;
+}
+
+.description {
+    text-align: justify;
+}
+
+.credit {
+    text-align: center;
+}
+
+.description, .credit {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item-menu {
+    font-family: 'Robot', sans-serif;
+}
+
+@media(max-width:1260px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        margin-top: 100px;
+    }
+}

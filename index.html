@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil Fanatics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Open+Sans:ital@1&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="imagem1">
+            <img class="logo" src="img/logo.webp" alt="Logo da página">
+        </div>
+        <div class="menu">
+            <div class="item-menu">
+                <a class="item" href="index.html">Home</a>
+            </div>
+            <div class="item-menu">
+                <a class="item" href="">About</a>
+            </div>
+            <div class="item-menu">
+                <a class="item" href="">Contact</a>
+            </div>
+            <div class="item-menu">
+                <a class="item" href="#i">Follow us</a>
+            </div>
+        </div>
+        <div class="button">
+            <input class="mudar" type="submit" onclick="mudar()" value="Change Theme">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form">
+                <h1>Don't miss anything <br> about Brazil's games!</h1>
+
+                <form action="#" method="post">
+                    <div class="input">
+                        <input class="input-inside" type="text" id="name" name="name" placeholder="Insert your name" required onclick="removerBorda()">
+                    </div>
+                    <div class="input">
+                        <input class="input-inside" type="email" id="email" name="email" placeholder="Insert your e-mail" required onclick="removerBorda()">
+                    </div>
+                    <div class="send">
+                        <button class="send-inside">Register</button>
+                    </div>
+                </form>
+            </div>
+            <div class="bloco">
+                <div class="descricao">
+                    <h2>Brazil's games</h2>
+                    <p class="description">This site was created for Brazil lovers! Our goal is to keep you informed about all the games in Brazil and everything about the team. Did you like it? So don't waste time and sign up in the form on the side. Go Brazil!</p>
+                </div>
+                <div class="imagem2">
+                    <img class="torcedor" src="img/torcedor1.jpg" alt="Torcedor do Brasil">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="creditos">
+            <p class="credit">Website created and developed by Raphael Dantas</p>
+        </div>
+        <div class="icones">
+            <div class="icon">
+                <a id="i" href="https://github.com/RaphaelDPalmeira" target="_blank">
+                    <img class="ic" src="img/github.png" alt="">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://www.instagram.com/raphadantas12/" target="_blank">
+                    <img class="ic" src="img/instagram.webp" alt="">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/raphael-dantas-4047421b8/" target="_blank">
+                    <img class="ic" src="img/linkedin.png" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
